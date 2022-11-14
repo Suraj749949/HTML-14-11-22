@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>registration.html</title>
+<body bgcolor="red">
+<form action="#" method="post" >
+<h1><center>STUDENT REGISTRATION FORM</center></h1>
+<br>
+<b>
+ENTER YOUR NAME </b><input type="text" size="10" maxlength="30" name="txt1" placeholder="first name" />&nbsp
+<input type="text" size="10" maxlength="30" name="txt2" placeholder="middle name" />&nbsp
+<input type="text" size="10" maxlength="30" name="txt3" placeholder="last name" />&nbsp
+<br><p>
+<b>ENTER DATE OF BIRTH </b><input type="date" />
+<p>
+<b>ENTER YOUR ADDRESS </b><input type="text" size="60" name="txt4" />
+<p>
+<b>ENTER YOUR MOBILE NO </b><input type="number" name="n1" />
+<p>
+<b>
+ENTER YOUR GMAIL</b>
+<input type="email" name="e1" required />
+<p>
+<label><b>GENDER</b></label> <input type="radio" name="ab" value="male"/>MALE 
+<input type="radio" name="ab" value="female"/>FEMALE 
+<p>
+<b>FACULTY</b> &nbsp <select name="s2">
+<option value="sci">SCIENCE</option>
+<option value="com">COMERS</option>
+<option value="art">ARTS</option>
+</select>
+<p>
+<b>QUALIFICATION</b> &nbsp <select name="s1">
+<option value="FY">FY</option>
+<option value="SY">SY</option>
+<option value="TY">TY</option>
+</select>
+<p>
+
+<b>OTHER QUALIFICATION </b>&nbsp
+<input type="checkbox" value="java" name"a1">JAVA
+<input type="checkbox" value="SQL" name"a1">SQL
+<input type="checkbox" value="net" name"a1">NETWORKING
+<p>
+<b>SET USER NAME</b>&nbsp
+<input type="text" name="txt5" />
+<p>
+<b>
+SET PASSWORD </b>
+ <input type="password" name"p1" required/>
+<p>
+<a href="login.html">
+<button type="button">SUBMIT</button></a>
+<input type="reset" value="clear"/>
+</form>
+</body>
+</html>
